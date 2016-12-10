@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyNotesActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mynotes_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        fab:menu_colorNormal="@color/colorAccent"
+        fab:menu_colorPressed="@color/colorAccent"
+        fab:menu_fab_size="normal"
+        fab:menu_openDirection="up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_add_24dp">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FAB1"
+            fab:fab_colorNormal="@color/colorFAB2"
+            fab:fab_colorPressed="@color/colorFAB2"
+            fab:fab_size="mini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_note_add_24dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FAB2"
+            fab:fab_colorNormal="@color/colorFAB1"
+            fab:fab_colorPressed="@color/colorFAB1"
+            fab:fab_size="mini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alarm_add_24dp" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

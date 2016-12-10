@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.littlegiants.android.edutree.AvatarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="STUDENT DETAILS   "
+        android:textColor="@color/black" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/fbsq_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name..." />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="6dp">
+
+        <EditText
+            android:id="@+id/fbsq_class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Class..." />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="6dp">
+
+        <EditText
+            android:id="@+id/fbsq_school"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="School..." />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_fbsq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save" />
+
+</LinearLayout>

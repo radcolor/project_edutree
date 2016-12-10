@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/abt"
+        android:orderInCategory="101"
+        android:title="@string/menu_abt" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="102"
+        android:title="@string/menu_lo" />
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="107"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/setmain"
+        android:orderInCategory="109"
+        android:title="@string/menu_drawer_set" />
+
+    <item
+        android:id="@+id/noty"
+        android:checkable="false"
+        android:icon="@drawable/bloggerlogo"
+        android:title="@string/menu_noti"
+        app:showAsAction="always" />
+
+
+
+</menu>

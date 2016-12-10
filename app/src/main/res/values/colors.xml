@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#388e3c</color>
+    <color name="colorPrimaryDark">#2e7d32</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="user_reg">#aaaaaa</color>
+    <color name="customcolor">#388e3c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="primary_material_light">#2e2e2e</color>
+    <color name="primary_dark_material_light">#181818</color>
+    <color name="back_about">#f2f2f2</color>
+    <color name="quiz_splash">#212121</color>
+    <color name="quiz_fade">#263238</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="chem_cp">#039be5</color>
+    <color name="new_chem">#03a9f4</color>
+    <color name="new_bio">#66bb6a</color>
+    <color name="new_maths">#fbc02d</color>
+    <color name="phy_cp">#f44336</color>
+    <color name="new_phy">#ef5350</color>
+    <color name="mat_grey">#212121</color>
+    <color name="sp_color">#4d8eb4</color>
+    <color name="book">#b7212121</color>
+    <color name="sample">#FFDAEEED</color>
+
+    <color name="colorFAB1">#2196f3</color>
+    <color name="colorFAB2">#e040fb</color>
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+</resources>

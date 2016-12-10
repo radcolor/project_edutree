@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "id": "100",
+      "question": "At what place the Asian games have been held four times ?",
+      "optionA": "New Delhi",
+      "optionB": "Bangkok",
+      "optionC": "Tehran",
+      "optionD": "Seoul",
+      "rightAnswer": "Bangkok"
+
+    },
+    {
+      "id": "101",
+      "question": "98th Indian Science Congress (ISC-2011) was held at ?",
+      "optionA": "SRM Univercity",
+      "optionB": "KIIT University",
+      "optionC": "IIT, Chennai",
+      "optionD": "IISc, Banglore",
+      "rightAnswer": "SRM University"
+
+    },
+    {
+      "id": "102",
+      "question": "Dr APJ Abdul Kalam, inaugurated state-of-the-art Navigation and Embedded Computers Complex on 9 Dec 2011 at ?",
+      "optionA": "RCI",
+      "optionB": "FRL",
+      "optionC": "ITR",
+      "optionD": "DFRL",
+      "rightAnswer": "RCI"
+    },
+    {
+      "id": "103",
+      "question": "In which common wealth game did India take part for the first time ?",
+      "optionA": "London 1934",
+      "optionB": "Auckland 1950",
+      "optionC": "1930 Hamilton",
+      "optionD": "1962 Perth",
+      "rightAnswer": "London 1934"
+    },
+    {
+      "id": "104",
+      "question": "Who was the founder of Dabur India Ltd. ?",
+      "optionA": "Gopinath",
+      "optionB": "JRD Tata",
+      "optionC": "Kishor Bayani",
+      "optionD": "S.K Burman",
+      "rightAnswer": "S.K Burman"
+    },
+    {
+      "id": "105",
+      "question": "The first Indian to win Nobel Prize was ?",
+      "optionA": "Mother Teresa",
+      "optionB": "Rabindranath Tagore",
+      "optionC": "C.V Raman",
+      "optionD": "Amartya Sen",
+      "rightAnswer": "Rabindranath Tagore"
+    },
+    {
+      "id": "106",
+      "question": "Which Indian Scientist has had the distinction of receiving not only the Nobel Prize, but also Bharat Ratna ?",
+      "optionA": "Kailash Satyarthi",
+      "optionB": "Rabindranath Tagore",
+      "optionC": "C.V Raman",
+      "optionD": "Dalai Lama",
+      "rightAnswer": "C.V Raman"
+    },
+    {
+      "id": "107",
+      "question": "Vision India 2020 is a book written by ?",
+      "optionA": "Dr. A.P.J Abdul Kalam",
+      "optionB": "Dr. C.V Raman",
+      "optionC": "Chetan Bhagat",
+      "optionD": "Khuswant Singh",
+      "rightAnswer": "Dr. A.P.J Abdul Kalam"
+    }
+  ]
+}

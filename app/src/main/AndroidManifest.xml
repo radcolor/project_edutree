@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.littlegiants.android.edutree">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_ico_beta"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Splashscreen"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProfileTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eduBOOK.EbooksActivity"
+            android:label="@string/title_activity_ebooks"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".eduCHEMISTRY.ChemistryActivity"
+            android:hardwareAccelerated="true"
+            android:label="Chemistry"
+            android:theme="@style/Chemistrytheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.VideoActivity" />
+        </activity>
+        <activity
+            android:name=".eduPHYSICS.PhysicsActivity"
+            android:hardwareAccelerated="true"
+            android:label="Physics"
+            android:theme="@style/Physicstheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.VideoActivity" />
+        </activity>
+        <activity
+            android:name=".eduMATHEMATICS.MathmaticsActivity"
+            android:hardwareAccelerated="true"
+            android:label="Mathematics"
+            android:theme="@style/Mathstheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.VideoActivity" />
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="Chapter Videos"
+            android:theme="@style/Physicstheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".eduBIOLOGY.BiologyActivity"
+            android:hardwareAccelerated="true"
+            android:label="Biology"
+            android:theme="@style/Biologytheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.VideoActivity" />
+        </activity>
+        <activity
+            android:name=".AnalysisActivity"
+            android:hardwareAccelerated="true"
+            android:label="Analysis"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Analysis_theme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SyllabusActivity"
+            android:label="CBSE Syllabus"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Analysis_theme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="Quiz It!"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="Blog"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AvatarActivity"
+            android:label="Set Avatar"
+            android:parentActivityName=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SplashQuizActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chem_testActivity"
+            android:label="Chapter Tests"
+            android:theme="@style/Chemistrytheme.NoActionBar" />
+        <activity
+            android:name=".LivetestActivity"
+            android:label="Chapter Tests"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SamplepaperActivity"
+            android:label="Sample Papers"
+            android:theme="@style/Chemistrytheme" />
+        <activity
+            android:name=".ComExamActivity"
+            android:label="Competitive Exams"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LoginPhone"
+            android:label="Phone Authentication"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InputStream_PDFActivity"
+            android:hardwareAccelerated="true"
+            android:label="PDF Viewer"
+            android:parentActivityName=".eduNOTES.NotesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.eduNOTES.NotesActivity" />
+        </activity>
+        <activity
+            android:name=".eduNOTES.NotesActivity"
+            android:label="Revision Notes"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity android:name=".CbseUpdateActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Create Account"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Storage_PDFActivity"
+            android:hardwareAccelerated="true"
+            android:label="PDF Viewer"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".QofflineActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/QuizTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MyNotesActivity"
+            android:label="My Notes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoggedClientActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MMNotesActivity"
+            android:label="New Note"
+            android:theme="@style/MMNotesTheme"></activity>
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".eduNOTES.NotesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.littlegiants.android.edutree.eduNOTES.NotesActivity" />
+        </activity>
+    </application>
+
+</manifest>
