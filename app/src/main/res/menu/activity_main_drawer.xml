@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:checkableBehavior="single">
+        <item
+            android:id="@+id/letsstart"
+
+            android:icon="@drawable/ic_lets_start"
+            android:title="@string/menu_drawer_ana" />
+
+        <item
+            android:id="@+id/cbsesyl"
+
+            android:icon="@drawable/ic_syllabus"
+            android:title="@string/menu_drawer_syll" />
+        <item
+            android:id="@+id/sampp"
+
+            android:icon="@drawable/ic_sample_pappers"
+            android:title="@string/menu_drawer_sp" />
+
+        <item
+            android:id="@+id/rev_note"
+            android:icon="@drawable/ic_revision_notes_24dp"
+            android:title="@string/menu_drawer_note" />
+
+        <item
+            android:id="@+id/examsc"
+            android:icon="@drawable/ic_exam"
+            android:title="@string/menu_drawer_cexa" />
+
+        <!--
+
+        <item
+            android:id="@+id/chtest"
+            android:icon="@drawable/ic_chapter_test"
+            android:title="@string/menu_drawer_tt" />
+
+         -->
+
+    </item>
+
+    <item android:title="My Tools" >
+        <menu >
+            <item android:title="@string/menu_drawer_myn"
+                android:id="@+id/myn"
+                android:icon="@drawable/ic_notes" />
+            <item
+                android:id="@+id/mbook"
+                android:icon="@drawable/ic_bookself"
+                android:title="@string/menu_drawer_myb" />
+            <item android:title="@string/menu_drawer_quiz"
+                android:id="@+id/quit"
+                android:icon="@drawable/ic_quiz" />
+        </menu>
+    </item>
+    <item android:title="CBSE Board">
+        <menu>
+            <item
+                android:id="@+id/Boardre"
+                android:title="@string/menu_drawer_res"
+                android:icon="@drawable/ic_insert_chart_black_24dp" />
+            <!--
+            <item
+                android:id="@+id/Boardreg"
+
+                android:title="@string/menu_drawer_exp"
+                android:icon="@drawable/ic_board_results" />
+
+                -->
+        </menu>
+    </item>
+    <item android:title="Communicate" >
+        <menu >
+            <item android:title="@string/menu_drawer_set"
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings" />
+            <item android:title="@string/menu_drawer_in"
+                android:id="@+id/invite"
+                android:icon="@drawable/ic_invite" />
+            <item android:title="@string/menu_drawer_feed"
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback_black_24dp" />
+            <item android:title="@string/menu_drawer_abt"
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about" />
+        </menu>
+    </item>
+
+</menu>

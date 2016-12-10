@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.littlegiants.android.edutree.NcerttenFragment">
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/maths10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Mathematics"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/science10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Science"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/economics10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Economics"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/geography10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Geography"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/ps10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Political Science"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/history10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 History"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+    android:id="@+id/english10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:liv_title="NCERT Class 10 English"
+    app:liv_icon="@drawable/ic_get_pdf_24dp"
+    app:liv_circularIcon="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/hindi1_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Hindi Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/hindi2_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Hindi Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/hindi3_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Hindi Part-3"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/hindi4_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Hindi Part-4"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/sanskrit10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 10 Sanskrit"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+
+</LinearLayout>

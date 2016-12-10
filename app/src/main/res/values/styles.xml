@@ -1,0 +1,127 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupBackground">@color/user_reg</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="QuizTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/sp_color</item>
+        <item name="colorPrimaryDark">@color/sp_color</item>
+        <item name="colorAccent">@color/sp_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ProfileTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Mathstheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F9A825</item>
+        <item name="colorPrimaryDark">#F57F17</item>
+        <item name="colorAccent">#F9A825</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Physicstheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/phy_cp</item>
+        <item name="colorPrimaryDark">#E53935</item>
+        <item name="colorAccent">#F44336</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Physicstheme.NoActionBar" parent="Physicstheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Chemistrytheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#039BE5</item>
+        <item name="colorPrimaryDark">#0288D1</item>
+        <item name="colorAccent">#039BE5</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Chemistrytheme.NoActionBar" parent="Chemistrytheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Biologytheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#43A047</item>
+        <item name="colorAccent">#4CAF50</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+
+    <style name="Actionbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+    </style>
+
+    <style name="Actionbarno" parent="Actionbarno"></style>
+
+    <style name="Settings" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">#2e2e2e</item>
+        <item name="colorPrimaryDark">#181818</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="Analysis_theme" parent="Analysis_theme.Base">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="Analysis_theme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:foreground">@drawable/ic_subject_background</item>
+    </style>
+
+    <style name="MMNotesTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="colorPrimaryDark">#757575</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

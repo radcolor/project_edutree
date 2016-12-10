@@ -1,0 +1,153 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.littlegiants.android.edutree.Syll_11_Fragment"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/maths_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Mathematics Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/physics_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Physics Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/chemistry_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Chemistry Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/biology_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Biology Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/accountancy_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Accountancy Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/economics_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Economics Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/bst_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Business Studies Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/englishcore_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="English Core Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/english_elec_ncert_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="English Elective NCERT Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/cs_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Computer Science Syllabus 2017-18" />
+
+        <com.lucasurbas.listitemview.ListItemView
+            android:id="@+id/pe_syll_11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@style/AppTheme"
+            app:liv_circularIcon="true"
+            app:liv_circularIconColor="@color/common_google_signin_btn_text_light_default"
+            app:liv_icon="@drawable/ic_syllabus"
+            app:liv_title="Physical Education Syllabus 2017-18" />
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

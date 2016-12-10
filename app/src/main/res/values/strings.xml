@@ -1,0 +1,221 @@
+<resources>
+
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <string name="app_name">Edutree</string>
+
+    <!-- Activity Main Menu Drawer -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_drawer_ana">Analysis</string>
+    <string name="menu_drawer_syll">CBSE Syllabus</string>
+    <string name="menu_drawer_sp">Sample Papers</string>
+    <string name="menu_drawer_tt">Take Tests</string>
+    <string name="menu_drawer_note">Revision Notes</string>
+    <string name="menu_drawer_myn">My Notes</string>
+    <string name="menu_drawer_myb">My Bookshelf</string>
+    <string name="menu_drawer_quiz">Quiz It!</string>
+    <string name="menu_drawer_res">CBSE Result</string>
+    <string name="menu_drawer_exp">Explore</string>
+    <string name="menu_drawer_cexa">Competitive Exams</string>
+    <string name="menu_drawer_set">Settings</string>
+    <string name="menu_drawer_in">Share</string>
+    <string name="menu_drawer_feed">Feedback</string>
+    <string name="menu_drawer_abt">About Us</string>
+
+    <!-- Activity Main Menu -->
+
+    <string name="menu_abt">About</string>
+    <string name="menu_lo">Log Out</string>
+    <string name="help">Help</string>
+    <string name="menu_cg">Change Grade</string>
+    <string name="menu_noti">Blog</string>
+
+    <!-- Class 11 Resources -->
+
+    <!-- Class 11 Resource Book Link-->
+
+    <string name="book_maths_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Mathematics.pdf?alt=media&token=695dbc6c-4f93-4157-950e-2e7641f7dd59]]></string>
+    <string name="book_phy_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Physics-Part-1.pdf?alt=media&token=3b95de9c-00a3-4c43-bb9f-9d0b0121824f]]></string>
+    <string name="book_phy_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Physics-Part-2.pdf?alt=media&token=08f37837-8e84-48d6-b5f7-887de7abf739]]></string>
+    <string name="book_chem_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Chemistry-Part-1.pdf?alt=media&token=50309697-d7b0-4cc1-9a0a-454c88be06c2]]></string>
+    <string name="book_chem_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Chemistry-Part-2.pdf?alt=media&token=ac39742d-d365-4720-b97a-db7f372a6b9b]]></string>
+    <string name="book_bio_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Biology.pdf?alt=media&token=2cdc84b4-880b-4a78-bac5-03d0da9fd1f0]]></string>
+    <string name="book_acc_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Accountancy-Part-1.pdf?alt=media&token=0802fc9e-ef81-4011-bd62-85d10ab4e197]]></string>
+    <string name="book_acc_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Accountancy-Part-2.pdf?alt=media&token=c42edb99-9c8f-4661-bd68-ef42f17989d3]]></string>
+    <string name="book_bst_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Business-Studies.pdf?alt=media&token=a5504c05-8a5e-4e95-821d-effc1a793df1]]></string>
+    <string name="book_eco_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Economics.pdf?alt=media&token=53b58978-d200-4281-a4d9-a9c235b0323a]]></string>
+    <string name="book_geo_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Geography-Part-1.pdf?alt=media&token=c939e15b-8df6-48f0-8720-ca7d872fb015]]></string>
+    <string name="book_geo_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Geography-Part-2.pdf?alt=media&token=a2c793a5-05cd-49ab-8d88-1f1ebca5196f]]></string>
+    <string name="book_ps_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Political-Science-Part-1.pdf?alt=media&token=a68eeaa6-be27-49e8-9050-2f529b524d7f]]></string>
+    <string name="book_ps_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little-giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Political-Science-Part-2.pdf?alt=media&token=1bb06fb8-bc0d-4a35-bec1-dd20b5c22003]]></string>
+    <string name="book_soc_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Sociology-Part-1.pdf?alt=media&token=ac8f298d-412a-4ff9-a741-543e338ee314]]></string>
+    <string name="book_soc_11_p2"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Sociology-Part-2.pdf?alt=media&token=2493fee0-5ccc-4a75-b998-4faea699660d]]></string>
+    <string name="book_psyc_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Psychology.pdf?alt=media&token=31c7acbf-dcc1-4b0f-a87d-eeabd8514e59]]></string>
+    <string name="book_stat_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-Statistics.pdf?alt=media&token=08a62432-6704-4519-b3c1-5302ebeefb5d]]></string>
+    <string name="book_eng_11_p1"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-English-Part-1.pdf?alt=media&token=0caf5d68-5b71-465b-8b4e-e0b171cabb3f]]></string>
+    <string name="book_eng_11_p2"></string>
+    <string name="book_eng_11_p3"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FNCERT%20Ebooks%20-%2011%2FNCERT-Class-11-English-Part-3.pdf?alt=media&token=c10b6e9c-7c13-4d15-a184-0dc90f79f93e]]></string>
+
+    <!-- Class 11 Resource Notes Link-->
+
+    <string name="notes_maths_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20MATHEMATICS%20-%20STUDY%20MATERIAL.pdf?alt=media&token=65d63251-bff6-4acf-b882-54ade523c282]]></string>
+    <string name="notes_phy_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20%20CLASS%20XI%20PHYSICS%20STUDY%20MATERIAL.pdf?alt=media&token=bcac9453-86a5-48e5-93c2-ba4768df4bb5]]></string>
+    <string name="notes_che_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20CHEMISTRY%20STUDY%20MATERIAL.pdf?alt=media&token=5508d079-3c53-4238-9e2a-d4f17c15a003]]></string>
+    <string name="notes_english_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20ENGLISH%20-%20STUDY%20MATERIAL.pdf?alt=media&token=79696aed-b8cd-4ef9-acd6-666d5dda9375]]></string>
+    <string name="notes_pe_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20PHYSICAL%20EDUCATION%20-%20STUDY%20MATERIAL.pdf?alt=media&token=3ced13aa-e4f1-42fb-a1c6-4e9b7f6aaae4]]></string>
+    <string name="notes_ip_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20INFORMATICS%20PRACTICES%20-%20STUDY%20MATERIAL.pdf?alt=media&token=6aee03fa-0d46-469a-8589-ccfe6ea6aa98]]></string>
+    <string name="notes_acc_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FCBSE%20Revision%20Notes%20Class-11%20Accountancy.pdf?alt=media&token=fc60643b-0374-40e2-a39e-9826bf396ab5]]></string>
+    <string name="notes_bst_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FCBSE%20Revision%20Notes%20Class-11%20BST.pdf?alt=media&token=d8747afc-199e-4c92-a7d6-17ff303b6f73]]></string>
+    <string name="notes_eco_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FCBSE%20Revision%20Notes%20Class-11%20Economics.pdf?alt=media&token=060be42b-b860-41e4-b4ad-112d3478abeb]]></string>
+    <string name="notes_bio_11"><![CDATA[https://firebasestorage.googleapis.com/v0/b/little–giants-edutree.appspot.com/o/Central%20Board%20of%20Secondary%20Education%20-%2011%2FCBSE%20Revision%20Notes%2FSESSION%202017-18%20CLASS%20XI%20BIOLOGY%20STUDY%20MATERIAL.pdf?alt=media&token=5f4116ae-4474-44bc-aaa4-f58ae8850d64]]></string>
+
+    <string name="edumail">edutree.com</string>
+
+    <string name="title_activity_ebooks">My Bookshelf</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <array name="topic_chem1_11_vid">
+        <item>1. Importance of chemistry</item>
+        <item>2. Nature of matter</item>
+        <item>3. Properties of matter and their measurement</item>
+        <item>4. Uncertainty in measurement</item>
+        <item>5. Dalton atomic theory</item>
+        <item>6. Mole concept, atomic masses</item>
+        <item>7. Percentage composition</item>
+        <item>8. Stoichiometry stoichiometric calculations</item>
+    </array>
+
+    <array name="topic_chem3_11_vid">
+        <item>1. Importance of classification of elements</item>
+        <item>2. Genesis of periodic classification of elements</item>
+        <item>3. Modern periodic law and present form</item>
+        <item>4. Nomenclature of elements</item>
+        <item>5. Electronic configuration of elements</item>
+        <item>6. Electronic configuration of s,p,d,f blocks</item>
+        <item>7. Periodic trends in properties of elements</item>
+    </array>
+
+    <array name="topic_phy1_11_vid">
+        <item>1. What is physics</item>
+        <item>2. Scope and excitement of physics</item>
+        <item>3. Physics, technology and society</item>
+        <item>4. Fundamental forces and nature</item>
+        <item>5. Nature of physics law</item>
+    </array>
+
+    <array name="avatar">
+        <item>R.drawable.avatar2</item>
+    </array>
+
+    <string-array name="Interest">
+        <item>Music</item>
+        <item>Dance</item>
+        <item>Shopping</item>
+        <item>Developing</item>
+        <item>Gaming</item>
+        <item>Travelling</item>
+        <item>Sports</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes_desc">My Notes were goes here and text other information Reminders and etc Goes here....</string>
+
+</resources>

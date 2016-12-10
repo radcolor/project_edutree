@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.littlegiants.android.edutree.NcertelevenFragment">
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/maths11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Mathematics"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true" />
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/physics1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Physics Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/physics2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Physics Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/chemistry1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Chemistry Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/chemistry2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Chemistry Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/biology11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Biology"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/accountancy1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Accountancy Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/accountancy2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Accountancy Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/bussinessstudies11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Business Studies"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/economics11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Economics"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/geography1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Geography Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/geography2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Geography Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/ps1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Political Science Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/ps2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Political Science Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/socialogy1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Sociology Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/socialogy2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Sociology Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/psychology11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Psychology"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/statistics11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 Statistics"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/english1_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 English Part-1"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/english2_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 English Part-2"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <com.lucasurbas.listitemview.ListItemView
+        android:id="@+id/english3_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:liv_title="NCERT Class 11 English Part-3"
+        app:liv_icon="@drawable/ic_get_pdf_24dp"
+        app:liv_circularIcon="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+
+
+</LinearLayout>

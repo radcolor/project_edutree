@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.littlegiants.android.edutree.eduMATHEMATICS.MathmaticsActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlay_phy"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@color/new_maths"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/ctl_maths"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/Actionbarno"
+            app:layout_scrollFlags="scroll">
+
+            <ImageView
+                android:id="@+id/image_maths"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_maths" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/logo_maths"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@id/appbarlay_phy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:nestedScrollingEnabled="true"
+            android:scrollbars="vertical"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/maths_notes"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_quiz"
+                        android:layout_width="130dp"
+                        android:layout_height="125dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/cv_notes" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/img_quiz">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/des_quiz"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="6dp"
+                                android:layout_marginTop="12dp"
+                                android:text="Maths Revision Notes"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                tools:layout_editor_absoluteX="233dp"
+                                tools:layout_editor_absoluteY="16dp" />
+
+                            <TextView
+                                android:id="@+id/des_quiz"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/button3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="10dp"
+                                android:text="Play quiz it! with your friends online"
+                                android:textAlignment="center"
+                                android:textSize="13sp"
+                                tools:layout_editor_absoluteX="157dp"
+                                tools:layout_editor_absoluteY="54dp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="See Now"
+                                android:textAlignment="center"
+                                android:textColor="@color/chem_cp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/maths_sp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_math_sp"
+                        android:layout_width="130dp"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/card_sp"
+                        android:transitionName="sp_img"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/img_math_sp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/des_quiz"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="6dp"
+                                android:layout_marginTop="12dp"
+                                android:text="Sample Pappers"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                tools:layout_editor_absoluteX="233dp"
+                                tools:layout_editor_absoluteY="16dp" />
+
+                            <TextView
+                                android:id="@+id/des_quiz"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/button3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="10dp"
+                                android:text="Play quiz it! with your friends online"
+                                android:textAlignment="center"
+                                android:textSize="13sp"
+                                tools:layout_editor_absoluteX="157dp"
+                                tools:layout_editor_absoluteY="54dp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check it out!"
+                                android:textAlignment="center"
+                                android:textColor="@color/chem_cp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/maths_syll"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_quiz"
+                        android:layout_width="130dp"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/card_syll" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/img_quiz">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/des_quiz"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="6dp"
+                                android:layout_marginTop="12dp"
+                                android:text="Check my Syllabus"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                tools:layout_editor_absoluteX="233dp"
+                                tools:layout_editor_absoluteY="16dp" />
+
+                            <TextView
+                                android:id="@+id/des_quiz"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/button3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="10dp"
+                                android:text="Play quiz it! with your friends online"
+                                android:textAlignment="center"
+                                android:textSize="13sp"
+                                tools:layout_editor_absoluteX="157dp"
+                                tools:layout_editor_absoluteY="54dp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check it out!"
+                                android:textAlignment="center"
+                                android:textColor="@color/chem_cp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/maths_tests"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/img_quiz"
+                        android:layout_width="130dp"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/card_test" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/img_quiz">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/des_quiz"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="6dp"
+                                android:layout_marginTop="12dp"
+                                android:text="Take Tests"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="18sp"
+                                tools:layout_editor_absoluteX="233dp"
+                                tools:layout_editor_absoluteY="16dp" />
+
+                            <TextView
+                                android:id="@+id/des_quiz"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_above="@+id/button3"
+                                android:layout_alignParentStart="true"
+                                android:layout_marginBottom="10dp"
+                                android:text="Play quiz it! with your friends online"
+                                android:textAlignment="center"
+                                android:textSize="13sp"
+                                tools:layout_editor_absoluteX="157dp"
+                                tools:layout_editor_absoluteY="54dp" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Check it out!"
+                                android:textAlignment="center"
+                                android:textColor="@color/chem_cp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
